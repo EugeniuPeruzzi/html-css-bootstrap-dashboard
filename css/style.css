@@ -4,16 +4,48 @@
     padding: 0;
 }
 
-.background-red{
+.red{
     background-color: red;
 }
 
+.blu{
+    background-color: blue;
+    height: 100%;
+}
+
+.white{
+    color: #fff;
+}
 .grey-color{
     color: #5B5858;
 }
 
 ul li{
     list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.padding{
+    padding-top: 62px;
+}
+
+.height{
+    height: calc(100vh - 62px);
 }
 
 /* ====== EDN UTILITIES ====== */
@@ -39,4 +71,12 @@ ul li{
 
 .fa-bell{
     color: #FF8F00;
+}
+/*  ====== MAIN PART ====== */
+/*  ====== NAVI SIDE BAR ====== */
+.img-bckgrnd{
+    background-image: url(../img/sidebar-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #051E34;
 }
