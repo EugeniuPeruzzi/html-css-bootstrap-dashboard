@@ -25,6 +25,13 @@
                     <div class="search-bar">
                         <i class="fa-solid fa-magnifying-glass"></i> 
                         <input class="form-control search" list="datalistOptions" id="exampleDataList" placeholder="Prova a cercare: Lezioni di Laravels">
+                        <datalist id="datalistOptions">
+                            <option value="San Francisco">
+                            <option value="New York">
+                            <option value="Seattle">
+                            <option value="Los Angeles">
+                            <option value="Chicago">
+                          </datalist>
                     </div>
                 </div>
                 <div class="col-1">
@@ -41,39 +48,72 @@
     <!-- ====== MAIN PART ====== -->
     <main>
         <!-- ====== NAVI SIDE BAR ====== -->
-        <div class="container-fluid padding height">
-            <div class="row">
-                <div class="col-1">
-                    <div class="container-fluid p-0">
-                        <div class="row img-bckgrnd height">
-                            <div class="col mx-3 d-flex flex-column justify-content-between">
-                                <div class="head-navi fs-5 white my-4">
-                                    <div class="navi-stats">
-                                        <div class="navi-choice d-flex my-2 align-items-center">
-                                            <i class="fa-solid fa-house"></i>
-                                            <a class="mx-4 white" href="#">Home</a>
-                                        </div>
-                                        <div class="navi-choice d-flex my-2 align-items-center">
-                                            <i class="fa-solid fa-chart-simple"></i>
-                                            <a class="mx-4 white" href="#">Status</a>
-                                        </div>
-                                        <div class="navi-choice d-flex my-2 align-items-center">
-                                            <i class="fa-solid fa-signal"></i>
-                                            <a class="mx-4 white" href="#">Signals</a>
-                                        </div>
+        <div class="container-fluid p-0 d-flex">
+            <div class="side-bar-section padding">
+                <div class="container-fluid">
+                    <div class="row img-bckgrnd height">
+                        <div class="col mx-2 d-flex flex-column justify-content-between">
+                            <div class="head-navi fs-5 white my-4">
+                                <div class="navi-stats">
+                                    <div class="navi-choice d-flex my-2 align-items-center">
+                                        <i class="fa-solid fa-house"></i>
+                                        <a class="mx-4 white" href="#">Home</a>
+                                    </div>
+                                    <div class="navi-choice d-flex my-2 align-items-center">
+                                        <i class="fa-solid fa-chart-simple"></i>
+                                        <a class="mx-4 white" href="#">Status</a>
+                                    </div>
+                                    <div class="navi-choice d-flex my-2 align-items-center">
+                                        <i class="fa-solid fa-signal"></i>
+                                        <a class="mx-4 white" href="#">Signals</a>
                                     </div>
                                 </div>
-                                <div class="bottom-navi fs-5 white py-3">
-                                    <div class="navi-choice d-flex my-2 align-items-center">
-                                        <i class="fa-solid fa-gear"></i>
-                                        <a class="mx-4 white" href="#">Admin</a>
-                                    </div>
+                            </div>
+                            <div class="bottom-navi fs-5 white py-3">
+                                <div class="navi-choice d-flex my-2 align-items-center">
+                                    <i class="fa-solid fa-gear"></i>
+                                    <a class="mx-4 white" href="#">Admin</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-11"></div>
+            </div>
+            <!-- ====== MAIN CONTENT FROM DASHBOARD ====== -->
+            <div class="main-section padding widht-percetnt">
+                <!-- main first part -->
+                <div class="container-fluid blu">
+                    <div class="row white py-4">
+                        <div class="col-4">
+                            <div class="title-dash">
+                                <h1 class="d-inline-block fw-semibold">Boolean</h1>
+                                <span class="badge rounded-pill badge-color">Piano blaze</span>
+                            </div>
+                            <div class="bread-crumbs">
+                                <span class="badge rounded-pill badge-color">3 app</span>
+                                <i class="fa-solid fa-angles-right"></i>
+                                <span class="badge rounded-pill badge-color">Boolean mobile app</span>
+                                <span class="badge rounded-pill badge-color">Boolean web app</span>
+                                <span class="badge rounded-pill badge-color">Boolean blog app</span>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="online-student">
+                                <h5 class="fw-semibold">Studenti online negli ultimi 30 minuti</h5>
+                                <h3 class="fw-semibold">125</h3>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="new-student d-flex align-items-center">
+                                <p class="fw-semibold my-1">Nuovo Studente</p>
+                                <div class="add-student mx-3">
+                                    <span class="fs-2 plus">+</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- second part main -->
             </div>
         </div>
     </main>

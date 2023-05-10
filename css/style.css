@@ -9,8 +9,7 @@
 }
 
 .blu{
-    background-color: blue;
-    height: 100%;
+    background-color: #1B72E8;
 }
 
 .white{
@@ -44,8 +43,20 @@ a{
     padding-top: 62px;
 }
 
+.side-bar-section{
+    width: 160px;
+}
+
 .height{
     height: calc(100vh - 62px);
+}
+
+.widht-percetnt{
+    width: calc(100% - 160px);
+}
+
+.badge-color{
+    background-color: #165BBA;
 }
 
 /* ====== EDN UTILITIES ====== */
@@ -79,4 +90,19 @@ a{
     background-repeat: no-repeat;
     background-size: contain;
     background-color: #051E34;
+}
+/* ====== MAIN CONTENT FROM DASHBOARD ====== */
+/* main first part */
+.add-student{
+    border-radius: 8px;
+    border: 1px solid #fff;
+    height: 40px;
+    width: 40px;
+    position: relative;
+}
+
+.plus{
+    position: absolute;
+    bottom: 1px;
+    right: 9px;
 }
