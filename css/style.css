@@ -3,3 +3,40 @@
     margin: 0;
     padding: 0;
 }
+
+.background-red{
+    background-color: red;
+}
+
+.grey-color{
+    color: #5B5858;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+/* ====== EDN UTILITIES ====== */
+/* ====== HEADER ====== */
+.search-bar{
+    position: relative;
+}
+
+.fa-magnifying-glass{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+
+.search{
+    background-color: #E5E5E5;
+    padding: 10px 40px;
+}
+
+.fa-magnifying-glass{
+    position: absolute;
+}
+
+.fa-bell{
+    color: #FF8F00;
+}
