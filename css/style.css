@@ -40,10 +40,6 @@ ul li{
     list-style-type: none;
 }
 
-a{
-    text-decoration: none;
-}
-
 .text-center{
     text-align: center;
 }
@@ -76,6 +72,8 @@ a{
     background-color: #165BBA;
 }
 
+
+
 /* ====== EDN UTILITIES ====== */
 /* ====== HEADER ====== */
 .search-bar{
@@ -106,7 +104,6 @@ a{
     background-image: url(../img/sidebar-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    
     background-color: #051E34;
 }
 /* ====== MAIN CONTENT FROM DASHBOARD ====== */
@@ -128,6 +125,15 @@ a{
 .img-container-class{
     width: 15%;
 }
+
 .img-container-class > img{
     width: 15%;
+}
+
+.img-container{
+    width: 100%;
+}
+
+.img-container > img{
+    width: 100%;
 }
