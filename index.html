@@ -40,7 +40,7 @@
                         <a href="#" class="m-2"><i class="fa-solid fa-circle-question grey-color"></i></a>
                         <a href="#" class="m-2"><i class="fa-solid fa-ellipsis-vertical grey-color"></i></a>
                         <div class="dropdown">
-                            <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false"><a href="#" class="m-2"><i class="fa-solid fa-bell"></i></a></button>
+                            <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-bell"></i></button>
                             <ul class="dropdown-menu">
                               <li><a class="dropdown-item" href="#">Profilo</a></li>
                               <li><a class="dropdown-item" href="#">Fatturazione</a></li>
@@ -85,45 +85,43 @@
                 </div>
             </div>
         </div>
-            <!-- ====== MAIN CONTENT FROM DASHBOARD ====== -->
-            <div class="main-section padding widht-percetnt margin-l">
-                <!-- main first part -->
-                <div class="container-fluid blu">
-                    <div class="row white py-4">
-                        <div class="col-4">
-                            <div class="title-dash">
-                                <h1 class="d-inline-block fw-semibold">Boolean</h1>
-                                <span class="badge rounded-pill badge-color">Piano blaze</span>
-                            </div>
-                            <div class="bread-crumbs">
-                                <span class="badge rounded-pill badge-color">3 app</span>
-                                <i class="fa-solid fa-angles-right"></i>
-                                <span class="badge rounded-pill badge-color">Boolean mobile app</span>
-                                <span class="badge rounded-pill badge-color">Boolean web app</span>
-                                <span class="badge rounded-pill badge-color">Boolean blog app</span>
-                            </div>
+        <!-- ====== MAIN CONTENT FROM DASHBOARD ====== -->
+        <div class="main-section padding widht-percetnt margin-l">
+            <!-- main first part -->
+            <div class="container-fluid blu">
+                <div class="row white py-4">
+                    <div class="col-4">
+                        <div class="title-dash">
+                            <h1 class="d-inline-block fw-semibold">Boolean</h1>
+                            <span class="badge rounded-pill badge-color">Piano blaze</span>
                         </div>
-                        <div class="col-4">
-                            <div class="online-student">
-                                <h5 class="fw-semibold">Studenti online negli ultimi 30 minuti</h5>
-                                <h3 class="fw-semibold">125</h3>
-                            </div>
+                        <div class="bread-crumbs">
+                            <span class="badge rounded-pill badge-color">3 app</span>
+                            <i class="fa-solid fa-angles-right"></i>
+                            <span class="badge rounded-pill badge-color">Boolean mobile app</span>
+                            <span class="badge rounded-pill badge-color">Boolean web app</span>
+                            <span class="badge rounded-pill badge-color">Boolean blog app</span>
                         </div>
-                        <div class="col-4 justify-content-end align-items-start d-flex">
-                            <div class="new-student d-flex align-items-center">
-                                <p class="fw-semibold my-1">Nuovo Studente</p>
-                                <!-- offcanvas -->
-                                <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                                    <div class="add white mx-3">
-                                        <a class="fs-2 plus white text-decoration-none">+</a>
-                                    </div>
-                                </button>
-                                <div class="offcanvas w-50 offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                                <div class="offcanvas-header">
-                                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                                </div>
-                                <div class="offcanvas-body">
+                    </div>
+                    <div class="col-4">
+                        <div class="online-student">
+                            <h5 class="fw-semibold">Studenti online negli ultimi 30 minuti</h5>
+                            <h3 class="fw-semibold">125</h3>
+                        </div>
+                    </div>
+                    <div class="col-4 justify-content-end align-items-start d-flex">
+                        <div class="new-student d-flex align-items-center">
+                            <p class="fw-semibold my-1">Nuovo Studente</p>
+                            <!-- offcanvas -->
+                            <button class="btn add white mx-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                                <span class="fs-2 plus white text-decoration-none">+</span>
+                            </button>
+                            <div class="offcanvas w-50 offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
                                     <form class="row g-3 needs-validation" novalidate="">
                                         <div class="col-md-6">
                                             <label for="validationCustom01" class="form-label">First name</label>
@@ -147,22 +145,22 @@
                                             <label for="inputPassword5" class="form-label">Password</label>
                                             <input type="password" id="inputPassword5" class="form-control" aria-labelledby="passwordHelpBlock">
                                             <div id="passwordHelpBlock" class="form-text">
-                                              Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+                                            Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
                                             </div>
                                         </div>
                                         <div class="col-md-12">
                                             <label for="validationCustom01" class="form-label">Indirizzo</label>
-                                            <input type="text" class="form-control" id="validationCustom01" value="" required="">
+                                            <input type="text" class="form-control" id="validationCustom03" value="" required="">
                                             <div class="valid-feedback">Looks good!</div>
                                         </div>
                                         <div class="col-md-6">
                                             <label for="validationCustom03" class="form-label">Citta</label>
-                                            <input type="text" class="form-control" id="validationCustom03" required="">
+                                            <input type="text" class="form-control" id="validationCustom04" required="">
                                             <div class="invalid-feedback">Please provide a valid city.</div>
                                         </div>
                                         <div class="col-md-3">
                                             <label for="validationCustom04" class="form-label">Stato</label>
-                                            <select class="form-select" id="validationCustom04" required="">
+                                            <select class="form-select" id="validationCustom05" required="">
                                                 <option selected="" disabled="" value="">Scegli...</option>
                                                 <option>...</option>
                                             </select>
@@ -170,14 +168,13 @@
                                         </div>
                                         <div class="col-md-3">
                                             <label for="validationCustom05" class="form-label">CAP</label>
-                                            <input type="text" class="form-control" id="validationCustom05" required="">
+                                            <input type="text" class="form-control" id="validationCustom06" required="">
                                             <div class="invalid-feedback">Please provide a valid zip.</div>
                                         </div>
                                         <div class="col-12">
                                             <label for="formFile" class="form-label">Foto</label>
                                             <input class="form-control" type="file" id="formFile">
-                                          </div>
-                                          
+                                        </div>
                                         <div class="col-12">
                                             <div class="form-check">
                                                 <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required="">
@@ -186,297 +183,295 @@
                                             </div>
                                         </div>
                                         <div class="col-12">
-                                          <button class="btn btn-primary" type="submit">Salva</button>
-                                          <button type="button" class="btn btn-warning">Svuota</button>
-
+                                        <button class="btn btn-primary" type="submit">Salva</button>
+                                        <button type="button" class="btn btn-warning">Svuota</button>
                                         </div>
-                                      </form>
-                                </div>
-                                </div>
+                                    </form>
+                                </div> 
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- second part main -->
-                <div class="contrainer-fluid main-color">
-                    <div class="row m-0">
-                        <!-- !! first sub second part main !! -->
-                        <div class="col-9">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-12 my-4">
-                                        <ul class="list-group">
-                                            <li class="list-group-item fs-3 fw-semibold list-bckgrnd">Prossime classi</li>
-                                            <li class=" list-group-item px-3">
-                                                <table class="table fw-light">
-                                                    <thead>
-                                                      <tr>
-                                                        <td class="fw-medium">Nome</td>
-                                                        <td class="fw-medium">Data inizio</td>
-                                                        <td class="fw-medium">ROI</td>
-                                                        <td class="fw-medium">Stato</td>
-                                                        <td class="fw-medium">Azioni</td>
-                                                      </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        <tr>
-                                                            <td>
-                                                            <div class="img-container-class">
-                                                                <img src="./img/class-avatar.jpg" alt="avatar">
-                                                                <span class="fw-medium mx-2 d-inline-block">Classe 75</span>
-                                                            </div>
-                                                            </td>
-                                                            <td class="fw-medium">15 Feb 2021</td>
-                                                            <td class="fw-medium">20%</td>
-                                                            <td class="fw-medium"><span class="badge text-bg-success">Done</span></td>
-                                                            <td>
-                                                                <div class="del-mod d-flex ">
-                                                                    <div class="td-color">
-                                                                        <i class="fa-solid fa-pencil"></i>
-                                                                    </div>
-                                                                    <div class="td-color mx-2">
-                                                                        <i class="fa-solid fa-trash"></i>
-                                                                    </div>
+            </div>
+            <!-- second part main -->
+            <div class="contrainer-fluid main-color">
+                <div class="row m-0">
+                    <!-- !! first sub second part main !! -->
+                    <div class="col-9">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-12 my-4">
+                                    <ul class="list-group">
+                                        <li class="list-group-item fs-3 fw-semibold list-bckgrnd">Prossime classi</li>
+                                        <li class=" list-group-item px-3">
+                                            <table class="table fw-light">
+                                                <thead>
+                                                    <tr>
+                                                    <td class="fw-medium">Nome</td>
+                                                    <td class="fw-medium">Data inizio</td>
+                                                    <td class="fw-medium">ROI</td>
+                                                    <td class="fw-medium">Stato</td>
+                                                    <td class="fw-medium">Azioni</td>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                        <div class="img-container-class">
+                                                            <img src="./img/class-avatar.jpg" alt="avatar">
+                                                            <span class="fw-medium mx-2 d-inline-block">Classe 75</span>
+                                                        </div>
+                                                        </td>
+                                                        <td class="fw-medium">15 Feb 2021</td>
+                                                        <td class="fw-medium">20%</td>
+                                                        <td class="fw-medium"><span class="badge text-bg-success">Done</span></td>
+                                                        <td>
+                                                            <div class="del-mod d-flex ">
+                                                                <div class="td-color">
+                                                                    <i class="fa-solid fa-pencil"></i>
                                                                 </div>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                            <div class="img-container-class">
-                                                                <img src="./img/class-avatar.jpg" alt="avatar">
-                                                                <span class="fw-medium mx-2 d-inline-block">Classe 76</span>
-                                                            </div>
-                                                            </td>
-                                                            <td class="fw-medium">16 Feb 2021</td>
-                                                            <td class="fw-medium">20%</td>
-                                                            <td class="fw-medium"><span class="badge text-bg-success">Done</span></td>
-                                                            <td>
-                                                                <div class="del-mod d-flex ">
-                                                                    <div class="td-color">
-                                                                        <i class="fa-solid fa-pencil"></i>
-                                                                    </div>
-                                                                    <div class="td-color mx-2">
-                                                                        <i class="fa-solid fa-trash"></i>
-                                                                    </div>
+                                                                <div class="td-color mx-2">
+                                                                    <i class="fa-solid fa-trash"></i>
                                                                 </div>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                            <div class="img-container-class">
-                                                                <img src="./img/class-avatar.jpg" alt="avatar">
-                                                                <span class="fw-medium mx-2 d-inline-block">Classe 78</span>
                                                             </div>
-                                                            </td>
-                                                            <td class="fw-medium">17 Feb 2021</td>
-                                                            <td class="fw-medium">20%</td>
-                                                            <td class="fw-medium"><span class="badge bg-warning white">process</span></td>
-                                                            <td>
-                                                                <div class="del-mod d-flex ">
-                                                                    <div class="td-color">
-                                                                        <i class="fa-solid fa-pencil"></i>
-                                                                    </div>
-                                                                    <div class="td-color mx-2">
-                                                                        <i class="fa-solid fa-trash"></i>
-                                                                    </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                        <div class="img-container-class">
+                                                            <img src="./img/class-avatar.jpg" alt="avatar">
+                                                            <span class="fw-medium mx-2 d-inline-block">Classe 76</span>
+                                                        </div>
+                                                        </td>
+                                                        <td class="fw-medium">16 Feb 2021</td>
+                                                        <td class="fw-medium">20%</td>
+                                                        <td class="fw-medium"><span class="badge text-bg-success">Done</span></td>
+                                                        <td>
+                                                            <div class="del-mod d-flex ">
+                                                                <div class="td-color">
+                                                                    <i class="fa-solid fa-pencil"></i>
                                                                 </div>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                            <div class="img-container-class">
-                                                                <img src="./img/class-avatar.jpg" alt="avatar">
-                                                                <span class="fw-medium mx-2 d-inline-block">Classe 79</span>
+                                                                <div class="td-color mx-2">
+                                                                    <i class="fa-solid fa-trash"></i>
+                                                                </div>
                                                             </div>
-                                                            </td>
-                                                            <td class="fw-medium">18 Feb 2021</td>
-                                                            <td class="fw-medium">20%</td>
-                                                            <td class="fw-medium"><span class="badge text-bg-success">Done</span></td>
-                                                            <td>
-                                                                <div class="del-mod d-flex ">
-                                                                    <div class="td-color">
-                                                                        <i class="fa-solid fa-pencil"></i>
-                                                                    </div>
-                                                                    <div class="td-color mx-2">
-                                                                        <i class="fa-solid fa-trash"></i>
-                                                                    </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                        <div class="img-container-class">
+                                                            <img src="./img/class-avatar.jpg" alt="avatar">
+                                                            <span class="fw-medium mx-2 d-inline-block">Classe 78</span>
+                                                        </div>
+                                                        </td>
+                                                        <td class="fw-medium">17 Feb 2021</td>
+                                                        <td class="fw-medium">20%</td>
+                                                        <td class="fw-medium"><span class="badge bg-warning white">process</span></td>
+                                                        <td>
+                                                            <div class="del-mod d-flex ">
+                                                                <div class="td-color">
+                                                                    <i class="fa-solid fa-pencil"></i>
                                                                 </div>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                            <div class="img-container-class">
-                                                                <img src="./img/class-avatar.jpg" alt="avatar">
-                                                                <span class="fw-medium mx-2 d-inline-block">Classe 80</span>
+                                                                <div class="td-color mx-2">
+                                                                    <i class="fa-solid fa-trash"></i>
+                                                                </div>
                                                             </div>
-                                                            </td>
-                                                            <td class="fw-medium">19 Feb 2021</td>
-                                                            <td class="fw-medium">20%</td>
-                                                            <td class="fw-medium"><span class="badge bg-danger white">failed</span></td>
-                                                            <td>
-                                                                <div class="del-mod d-flex ">
-                                                                    <div class="td-color">
-                                                                        <i class="fa-solid fa-pencil"></i>
-                                                                    </div>
-                                                                    <div class="td-color mx-2">
-                                                                        <i class="fa-solid fa-trash"></i>
-                                                                    </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                        <div class="img-container-class">
+                                                            <img src="./img/class-avatar.jpg" alt="avatar">
+                                                            <span class="fw-medium mx-2 d-inline-block">Classe 79</span>
+                                                        </div>
+                                                        </td>
+                                                        <td class="fw-medium">18 Feb 2021</td>
+                                                        <td class="fw-medium">20%</td>
+                                                        <td class="fw-medium"><span class="badge text-bg-success">Done</span></td>
+                                                        <td>
+                                                            <div class="del-mod d-flex ">
+                                                                <div class="td-color">
+                                                                    <i class="fa-solid fa-pencil"></i>
                                                                 </div>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                            <div class="img-container-class">
-                                                                <img src="./img/class-avatar.jpg" alt="avatar">
-                                                                <span class="fw-medium mx-2 d-inline-block">Classe 81</span>
+                                                                <div class="td-color mx-2">
+                                                                    <i class="fa-solid fa-trash"></i>
+                                                                </div>
                                                             </div>
-                                                            </td>
-                                                            <td class="fw-medium">20 Feb 2021</td>
-                                                            <td class="fw-medium">20%</td>
-                                                            <td class="fw-medium"><span class="badge text-bg-success">Done</span></td>
-                                                            <td>
-                                                                <div class="del-mod d-flex ">
-                                                                    <div class="td-color">
-                                                                        <i class="fa-solid fa-pencil"></i>
-                                                                    </div>
-                                                                    <div class="td-color mx-2">
-                                                                        <i class="fa-solid fa-trash"></i>
-                                                                    </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                        <div class="img-container-class">
+                                                            <img src="./img/class-avatar.jpg" alt="avatar">
+                                                            <span class="fw-medium mx-2 d-inline-block">Classe 80</span>
+                                                        </div>
+                                                        </td>
+                                                        <td class="fw-medium">19 Feb 2021</td>
+                                                        <td class="fw-medium">20%</td>
+                                                        <td class="fw-medium"><span class="badge bg-danger white">failed</span></td>
+                                                        <td>
+                                                            <div class="del-mod d-flex ">
+                                                                <div class="td-color">
+                                                                    <i class="fa-solid fa-pencil"></i>
                                                                 </div>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                            <div class="img-container-class">
-                                                                <img src="./img/class-avatar.jpg" alt="avatar">
-                                                                <span class="fw-medium mx-2 d-inline-block">Classe 82</span>
+                                                                <div class="td-color mx-2">
+                                                                    <i class="fa-solid fa-trash"></i>
+                                                                </div>
                                                             </div>
-                                                            </td>
-                                                            <td class="fw-medium">21 Feb 2021</td>
-                                                            <td class="fw-medium">20%</td>
-                                                            <td class="fw-medium"><span class="badge bg-danger white">failed</span></td>
-                                                            <td>
-                                                                <div class="del-mod d-flex ">
-                                                                    <div class="td-color">
-                                                                        <i class="fa-solid fa-pencil"></i>
-                                                                    </div>
-                                                                    <div class="td-color mx-2">
-                                                                        <i class="fa-solid fa-trash"></i>
-                                                                    </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                        <div class="img-container-class">
+                                                            <img src="./img/class-avatar.jpg" alt="avatar">
+                                                            <span class="fw-medium mx-2 d-inline-block">Classe 81</span>
+                                                        </div>
+                                                        </td>
+                                                        <td class="fw-medium">20 Feb 2021</td>
+                                                        <td class="fw-medium">20%</td>
+                                                        <td class="fw-medium"><span class="badge text-bg-success">Done</span></td>
+                                                        <td>
+                                                            <div class="del-mod d-flex ">
+                                                                <div class="td-color">
+                                                                    <i class="fa-solid fa-pencil"></i>
                                                                 </div>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                            <div class="img-container-class">
-                                                                <img src="./img/class-avatar.jpg" alt="avatar">
-                                                                <span class="fw-medium mx-2 d-inline-block">Classe 83</span>
+                                                                <div class="td-color mx-2">
+                                                                    <i class="fa-solid fa-trash"></i>
+                                                                </div>
                                                             </div>
-                                                            </td>
-                                                            <td class="fw-medium">22 Feb 2021</td>
-                                                            <td class="fw-medium">20%</td>
-                                                            <td class="fw-medium"><span class="badge text-bg-success">Done</span></td>
-                                                            <td>
-                                                                <div class="del-mod d-flex ">
-                                                                    <div class="td-color">
-                                                                        <i class="fa-solid fa-pencil"></i>
-                                                                    </div>
-                                                                    <div class="td-color mx-2">
-                                                                        <i class="fa-solid fa-trash"></i>
-                                                                    </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                        <div class="img-container-class">
+                                                            <img src="./img/class-avatar.jpg" alt="avatar">
+                                                            <span class="fw-medium mx-2 d-inline-block">Classe 82</span>
+                                                        </div>
+                                                        </td>
+                                                        <td class="fw-medium">21 Feb 2021</td>
+                                                        <td class="fw-medium">20%</td>
+                                                        <td class="fw-medium"><span class="badge bg-danger white">failed</span></td>
+                                                        <td>
+                                                            <div class="del-mod d-flex ">
+                                                                <div class="td-color">
+                                                                    <i class="fa-solid fa-pencil"></i>
                                                                 </div>
-                                                            </td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <ul class="list-group">
-                                            <li class="list-group-item fs-3 fw-semibold list-bckgrnd">F.A.Q.</li>
-                                            <li class="list-group-item">
-                                                <div class="accordion accordion-flush" id="accordionFlushExample">
-                                                    <div class="accordion-item">
-                                                      <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">Come aggiungere un nuovo studente?</button></h2>
-                                                      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                                            <div class="accordion-body">Clicca sul + in alto nella sezione bli.</div>
-                                                      </div>
-                                                    </div>
-                                                    <div class="accordion-item">
-                                                      <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">Come posso accedere alle informazioni del mio account?</button></h2>
-                                                      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                                            <div class="accordion-body">Clicca sull'icona della campanella</div>
-                                                      </div>
-                                                    </div>
-                                                    <div class="accordion-item">
-                                                      <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">Posso usare questa dashbord da mobile?</button></h2>
-                                                      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                                            <div class="accordion-body">Questa dashbord e stata ottimizzata per il mobile.</div>
-                                                      </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                                                <div class="td-color mx-2">
+                                                                    <i class="fa-solid fa-trash"></i>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                        <div class="img-container-class">
+                                                            <img src="./img/class-avatar.jpg" alt="avatar">
+                                                            <span class="fw-medium mx-2 d-inline-block">Classe 83</span>
+                                                        </div>
+                                                        </td>
+                                                        <td class="fw-medium">22 Feb 2021</td>
+                                                        <td class="fw-medium">20%</td>
+                                                        <td class="fw-medium"><span class="badge text-bg-success">Done</span></td>
+                                                        <td>
+                                                            <div class="del-mod d-flex ">
+                                                                <div class="td-color">
+                                                                    <i class="fa-solid fa-pencil"></i>
+                                                                </div>
+                                                                <div class="td-color mx-2">
+                                                                    <i class="fa-solid fa-trash"></i>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
-                        <!-- !! second sub second part main !! -->
-                        <div class="col-3">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-12 my-4">
-                                        <ul class="list-group">
-                                            <li class="list-group-item fs-3 fw-semibold list-bckgrnd">Todo</li>
-                                            <li class="list-group-item">
-                                                <div class="border my-2 rounded">
-                                                    <div class="border-bottom">
-                                                        <div class="form-check py-1">
-                                                            <input class="form-check-input m-1" type="checkbox" value="" id="flexCheckDefault">
-                                                            <label class="form-check-label mx-1" for="flexCheckDefault">Kickoff nuove classi</label>
-                                                        </div>
-                                                    </div>
-                                                    <div class="border-bottom">
-                                                        <div class="form-check py-1">
-                                                            <input class="form-check-input m-1" type="checkbox" value="" id="flexCheckDefault">
-                                                            <label class="form-check-label mx-1" for="flexCheckDefault">Leziona su Bootstrap 5 in classe #75</label>
-                                                        </div>
-                                                    </div>
-                                                    <div class="border-bottom">
-                                                        <div class="form-check py-1">
-                                                            <input class="form-check-input m-1" type="checkbox" value="" id="flexCheckDefault">
-                                                            <label class="form-check-label mx-1" for="flexCheckDefault">Controllare username github studenti</label>
-                                                        </div>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-12">
+                                    <ul class="list-group">
+                                        <li class="list-group-item fs-3 fw-semibold list-bckgrnd">F.A.Q.</li>
+                                        <li class="list-group-item">
+                                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">Come aggiungere un nuovo studente?</button></h2>
+                                                    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                        <div class="accordion-body">Clicca sul + in alto nella sezione bli.</div>
                                                     </div>
                                                 </div>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">Come posso accedere alle informazioni del mio account?</button></h2>
+                                                    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                        <div class="accordion-body">Clicca sull'icona della campanella</div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">Posso usare questa dashbord da mobile?</button></h2>
+                                                    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                                        <div class="accordion-body">Questa dashbord e stata ottimizzata per il mobile.</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-12 my-4">
-                                        <div class="border">
-                                            <ul class="list-group m-3">
-                                                <li class="list-group-item">
-                                                    <div class="img-container">
-                                                        <img src="./img/stats.jpeg" alt="statistica">
+                        </div>
+                    </div>
+                    <!-- !! second sub second part main !! -->
+                    <div class="col-3">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-12 my-4">
+                                    <ul class="list-group">
+                                        <li class="list-group-item fs-3 fw-semibold list-bckgrnd">Todo</li>
+                                        <li class="list-group-item">
+                                            <div class="border my-2 rounded">
+                                                <div class="border-bottom">
+                                                    <div class="form-check py-1">
+                                                        <input class="form-check-input m-1" type="checkbox" value="" id="flexCheckDefault1">
+                                                        <label class="form-check-label mx-1" for="flexCheckDefault1">Kickoff nuove classi</label>
                                                     </div>
-                                                    <h4>Utentri attivi</h4>
-                                                    <p>Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
-                                                </li>
-                                                <li class="list-group-item">Gennaio: 1200</li>
-                                                <li class="list-group-item">Febbraio: 800</li>
-                                                <li class="list-group-item">Marzo: 1500</li>
-                                                <li class="list-group-item"><a href="#">Visuializza report approfondito</a></li>
-                                            </ul>
-                                        </div>
+                                                </div>
+                                                <div class="border-bottom">
+                                                    <div class="form-check py-1">
+                                                        <input class="form-check-input m-1" type="checkbox" value="" id="flexCheckDefault2">
+                                                        <label class="form-check-label mx-1" for="flexCheckDefault2">Leziona su Bootstrap 5 in classe #75</label>
+                                                    </div>
+                                                </div>
+                                                <div class="border-bottom">
+                                                    <div class="form-check py-1">
+                                                        <input class="form-check-input m-1" type="checkbox" value="" id="flexCheckDefault3">
+                                                        <label class="form-check-label mx-1" for="flexCheckDefault3">Controllare username github studenti</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-12 my-4">
+                                    <div class="border">
+                                        <ul class="list-group m-3">
+                                            <li class="list-group-item">
+                                                <div class="img-container">
+                                                    <img src="./img/stats.jpeg" alt="statistica">
+                                                </div>
+                                                <h4>Utentri attivi</h4>
+                                                <p>Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
+                                            </li>
+                                            <li class="list-group-item">Gennaio: 1200</li>
+                                            <li class="list-group-item">Febbraio: 800</li>
+                                            <li class="list-group-item">Marzo: 1500</li>
+                                            <li class="list-group-item"><a href="#">Visuializza report approfondito</a></li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
