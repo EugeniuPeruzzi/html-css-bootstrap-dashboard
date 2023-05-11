@@ -13,8 +13,8 @@
 <body>
     <!-- ====== HEADER ====== -->
     <header>
-        <div class="container-fluid">
-            <div class="row p-2 align-items-center fixed">
+        <div class="container-fluid fixed">
+            <div class="row p-3 align-items-center back-ground-white">
                 <div class="col-1">
                     <div class="img-container-logo">
                         <img src="./img/logo.svg" alt="Logo-Boolean">
@@ -48,39 +48,38 @@
     <!-- ====== MAIN PART ====== -->
     <main>
         <!-- ====== NAVI SIDE BAR ====== -->
-        <div class="p-0 d-flex">
-            <div class="side-bar-section padding">
-                <div class="container-fluid">
-                    <div class="row img-bckgrnd height">
-                        <div class="mx-2 d-flex flex-column justify-content-between">
-                            <div class="head-navi fs-5 white my-4">
-                                <div class="navi-stats">
-                                    <div class="navi-choice d-flex my-2 align-items-center">
-                                        <i class="fa-solid fa-house"></i>
-                                        <a class="mx-4 white text-decoration-none" href="#">Home</a>
-                                    </div>
-                                    <div class="navi-choice d-flex my-2 align-items-center">
-                                        <i class="fa-solid fa-chart-simple"></i>
-                                        <a class="mx-4 white text-decoration-none" href="#">Status</a>
-                                    </div>
-                                    <div class="navi-choice d-flex my-2 align-items-center">
-                                        <i class="fa-solid fa-signal"></i>
-                                        <a class="mx-4 white text-decoration-none" href="#">Signals</a>
-                                    </div>
-                                </div>
+        <div class="side-bar-section side-bar-fixed width img-bckgrnd">
+            <div class="row-navi height padding d-flex flex-column justify-content-between">
+                <div class="col-12-navi">
+                    <div class="head-navi fs-5 white p-4 mx-2">
+                        <div class="navi-stats">
+                            <div class="navi-choice d-flex align-items-center mb-3">
+                                <i class="fa-solid fa-house"></i>
+                                <a class="mx-4 white text-decoration-none" href="#">Home</a>
                             </div>
-                            <div class="bottom-navi fs-5 white py-3">
-                                <div class="navi-choice d-flex my-2 align-items-center">
-                                    <i class="fa-solid fa-gear"></i>
-                                    <a class="mx-4 white text-decoration-none" href="#">Admin</a>
-                                </div>
+                            <div class="navi-choice d-flex align-items-center mb-3">
+                                <i class="fa-solid fa-chart-simple"></i>
+                                <a class="mx-4 white text-decoration-none" href="#">Status</a>
+                            </div>
+                            <div class="navi-choice d-flex align-items-center mb-3">
+                                <i class="fa-solid fa-signal"></i>
+                                <a class="mx-4 white text-decoration-none" href="#">Signals</a>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="col-12-navi">
+                    <div class="bottom-navi fs-5 white p-4 mx-2">
+                        <div class="navi-choice d-flex align-items-center">
+                            <i class="fa-solid fa-gear"></i>
+                            <a class="mx-4 white text-decoration-none" href="#">Admin</a>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
             <!-- ====== MAIN CONTENT FROM DASHBOARD ====== -->
-            <div class="main-section padding widht-percetnt">
+            <div class="main-section padding widht-percetnt margin-l">
                 <!-- main first part -->
                 <div class="container-fluid blu">
                     <div class="row white py-4">
@@ -115,7 +114,7 @@
                 </div>
                 <!-- second part main -->
                 <div class="contrainer-fluid main-color">
-                    <div class="row">
+                    <div class="row m-0">
                         <!-- !! first sub second part main !! -->
                         <div class="col-9">
                             <div class="container-fluid">
