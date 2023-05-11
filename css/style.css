@@ -120,6 +120,17 @@ ul li{
     background-color: #051E34;
 }
 
+.navi-choice:hover{
+    background-color: #c4c4c4;
+}
+
+tr:hover{
+    background-color: #e6e6e6;
+}
+.accordion-button:hover{
+    background-color: #e6e6e6;
+}
+
 /* ====== MAIN CONTENT FROM DASHBOARD ====== */
 /* main first part */
 .add{
